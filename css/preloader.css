@@ -1,0 +1,9 @@
+#preloader {
+  background: #083142 url("../images/loading-1.gif") no-repeat center center;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  font-family: "Fredoka One", cursive;
+}
