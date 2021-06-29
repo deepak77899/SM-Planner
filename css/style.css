@@ -19,23 +19,26 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-right: 11.06%;
-  padding-left: 11.06%;
+  padding-right: 11.5%;
+  padding-left: 9.8%;
 }
 .nav-button-group {
   width: 50%;
   display: flex;
   justify-content: flex-end;
+  margin-top: 6px;
 }
 .btn {
   width: 145px;
-  height: 40px;
+  height: 45px;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   letter-spacing: 1px;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 14px;
+  line-height: 25px;
 }
 nav a {
   color: white;
@@ -100,6 +103,11 @@ nav a {
   background: white;
   border: 2px solid white;
 }
+.btn.btn-hc {
+  width: 185px;
+  height: 50px;
+  margin-top: 42px;
+}
 .header-content button:hover {
   background: transparent;
 }
@@ -108,12 +116,19 @@ nav a {
 }
 .header-content button a {
   color: black;
+  font-weight: 700;
 }
 .header-content button {
   margin-bottom: 13.4rem;
   margin-top: 4rem;
 }
 /* great sales section start */
+.great-sales {
+  height: 151px;
+  display: grid;
+  place-items: center;
+  background: #213532;
+}
 .great-sales h1 {
   font-size: 30px;
   letter-spacing: 3px;
@@ -142,8 +157,8 @@ nav a {
 
 .daily-structure-content {
   max-width: 642px;
-  margin-top: 10rem;
-  margin-bottom: 8rem;
+  margin-top: 6.3rem;
+  margin-bottom: 6.8rem;
   margin-right: 11.2%;
 }
 .daily-structure-content h1 {
@@ -159,15 +174,20 @@ nav a {
   color: #8f9092;
   font-weight: 400;
   font-family: "Montserrat";
-  margin-top: 2rem;
-  margin-bottom: 3rem;
+  margin-top: 4.1rem;
+  margin-bottom: 5.7rem;
 }
 .btn4 {
   background: transparent;
   border: 2px solid #213532;
+  width: 185px;
+  height: 50px;
 }
 .btn4 a {
   color: #213532;
+  /*! width: 185px; */
+  /*! height: 50px; */
+  font-weight: 700;
 }
 .btn4:hover,
 .btn4:hover a {
@@ -183,7 +203,7 @@ nav a {
 .green-icon-inside {
   display: flex;
   justify-content: space-between;
-  margin-top: 7rem;
+  margin-top: 9rem;
   flex-wrap: wrap;
   width: 77.86%;
 }
@@ -210,7 +230,7 @@ nav a {
   font-weight: 400;
   font-family: "Montserrat";
   margin-top: 2rem;
-  margin-bottom: 7rem;
+  margin-bottom: 8rem;
 }
 /* green icon section end */
 /* vedio plaayer section start */
@@ -218,7 +238,7 @@ nav a {
 .video-player-section {
   background: #f0f0f2;
   width: 100%;
-  padding: 6.7rem 0rem 6rem 0rem;
+  padding: 6.4rem 0rem 6rem 0rem;
   text-align: center;
 }
 .video-player-inside {
@@ -240,7 +260,7 @@ nav a {
   color: #436d67;
   font-weight: 500;
   font-family: Majestic;
-  margin-bottom: 3.8rem;
+  margin-bottom: 2.2rem;
 }
 .video-player-inside p {
   text-align: center;
@@ -249,7 +269,7 @@ nav a {
   color: #8f9092;
   font-weight: 400;
   font-family: "Montserrat";
-  margin-bottom: 3rem;
+  margin-bottom: 6.7rem;
   /* max-width: 1187px; */
   width: 77.86%;
 }
@@ -281,7 +301,7 @@ nav a {
 .footer {
   background: #213532;
   text-align: center;
-  padding-top: 2rem;
+  padding-top: 1rem;
 }
 .footer-icons a {
   font-size: 2rem;
@@ -289,11 +309,11 @@ nav a {
   padding-right: 2rem;
 }
 .footer-icons {
-  margin-top: 25px;
-  margin-bottom: 35px;
+  margin-top: 19px;
+  margin-bottom: 26px;
 }
 .footer-links {
-  margin-bottom: 2rem;
+  margin-bottom: 2.4rem;
 }
 .footer-links a {
   color: #c7cccc;
@@ -310,6 +330,12 @@ nav a {
 }
 #f-link-5 {
   border-right: none;
+}
+.copyright {
+  height: 66px;
+  background: #162724;
+  display: grid;
+  place-items: center;
 }
 .copyright h4 {
   font-size: 13px;
