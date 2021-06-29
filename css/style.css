@@ -92,12 +92,13 @@ nav a {
   padding-top: 112px;
 }
 .header-content h1 {
-  font-size: 96px;
+  font-size: 100px;
   color: #ffffff;
   font-weight: 500;
   font-family: Majestic;
   text-align: center;
   filter: drop-shadow(0px 5px 5px rgba(77, 77, 77, 0.42));
+  line-height: 120px;
 }
 .header-content button {
   background: white;
