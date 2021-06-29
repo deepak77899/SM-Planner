@@ -1,9 +1,4 @@
 @media (min-width: 576px) and (max-width: 767px) {
-  nav {
-    flex-direction: column;
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
   .nav-button-group {
     width: 100%;
     justify-content: center;
@@ -11,6 +6,38 @@
   }
   .nav-button-group {
     display: none;
+  }
+  .menu-button {
+    display: inline-block;
+  }
+  .header-content h1 {
+    font-size: 72px;
+    line-height: 93px;
+  }
+  .block {
+    position: absolute;
+    top: 146px;
+    background: #213532;
+    display: flex;
+    height: 100px;
+    width: 95vw;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav-button-group.block::before {
+    content: "";
+    width: 30px;
+    height: 30px;
+    background: #213532;
+    position: absolute;
+    transform: rotate(45deg);
+    top: -13px;
+    right: 38px;
+  }
+  nav {
+    flex-direction: row;
+    padding-left: 1rem;
+    padding-right: 6rem;
   }
   .great-sales h1 {
     line-height: 51px;
@@ -130,17 +157,59 @@
     background-position-x: 0rem;
   }
 }
+@media screen and (min-width: 1550px) {
+  .header-content {
+    padding-top: 200px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .header-content {
+    background-position: center;
+  }
+}
 @media (max-width: 576px) {
   nav {
-    flex-direction: column;
+    flex-direction: row;
     padding-left: 1rem;
-    padding-right: 1rem;
+    padding-right: 4rem;
   }
   .header-content h1 {
     font-size: 50px;
   }
   .nav-button-group {
     display: none;
+  }
+  .header-content h1 {
+    line-height: 81px;
+  }
+  .menu-button {
+    display: inline-block;
+  }
+  .block {
+    position: absolute;
+    top: 129px;
+    background: #213532;
+    display: flex;
+    height: 100px;
+    width: 95vw;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 445px;
+    z-index: 100;
+  }
+  .nav-button-group.block::before {
+    content: "";
+    width: 30px;
+    height: 30px;
+    background: #213532;
+    position: absolute;
+    transform: rotate(45deg);
+    top: -13px;
+    right: 38px;
+  }
+  nav a {
+    margin-right: 0;
   }
   .great-sales h1 {
     font-size: 20px;

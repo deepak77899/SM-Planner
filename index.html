@@ -26,6 +26,13 @@
       <div class="header-section">
         <nav>
           <div class="logo"><img src="./images/logo.png" alt="logo" /></div>
+          <div class="menu-button">
+            ><img
+              src="./images/icons8-squared-menu-24(1).png"
+              alt="menu button"
+              class="menu-btn-img"
+            />
+          </div>
           <div class="nav-button-group">
             <a href="#" class="btn btn1">HOME</a>
             <a href="#" class="btn btn2">OUR STORY</a>
@@ -188,6 +195,11 @@
 
       window.addEventListener("load", function () {
         loader.style.display = "none";
+      });
+      let menu = document.querySelector(".menu-button");
+      menu.addEventListener("click", () => {
+        let btns = document.querySelector(".nav-button-group");
+        btns.classList.toggle("block");
       });
     </script>
   </body>

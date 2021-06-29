@@ -28,6 +28,12 @@ nav {
   justify-content: flex-end;
   margin-top: 6px;
 }
+.block {
+  display: block;
+}
+.menu-button {
+  display: none;
+}
 .btn {
   width: 145px;
   height: 45px;
