@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="./css/preloader.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/responsive.css" />
+    <link rel="stylesheet" href="./css/slick.css" />
+    <link rel="stylesheet" href="./css/slick-theme.css" />
     <title>SM PLANNER</title>
   </head>
   <body>
@@ -39,9 +41,19 @@
             <a href="#" class="btn btn3">BUY NOW</a>
           </div>
         </nav>
-        <div class="header-content">
-          <h1>Plan Your SALE <br />With Us</h1>
-          <button class="btn btn-hc"><a href="#">SHOP NOW</a></button>
+        <div class="header-content main-slider">
+          <div class="slides">
+            <h1>Plan Your SALE <br />With Us</h1>
+            <button class="btn btn-hc"><a href="#">SHOP NOW</a></button>
+          </div>
+          <div class="slides">
+            <h1>Plan Your SALE <br />With Us</h1>
+            <button class="btn btn-hc"><a href="#">SHOP NOW</a></button>
+          </div>
+          <div class="slides">
+            <h1>Plan Your SALE <br />With Us</h1>
+            <button class="btn btn-hc"><a href="#">SHOP NOW</a></button>
+          </div>
         </div>
       </div>
       <!-- header section end -->
@@ -145,10 +157,6 @@
                 src="https://player.vimeo.com/external/357054544.sd.mp4?s=6bfb2f581296b4cb50462d8ff511671358a10bcd&profile_id=139&oauth2_token_id=57447761"
                 type="video/mp4"
               />
-              <!-- <source
-                src="https://static.videezy.com/system/resources/previews/000/021/576/original/drone-follows-parachute-boat-4K.mp4"
-                type="video/mp4"
-              /> -->
               Your browser does not support HTML video.
             </video>
             <ul>
@@ -200,6 +208,21 @@
       menu.addEventListener("click", () => {
         let btns = document.querySelector(".nav-button-group");
         btns.classList.toggle("block");
+      });
+    </script>
+    <script src="./js/jQueryv3.6.0.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".main-slider").slick({
+          dots: true,
+          infinite: true,
+          speed: 300,
+          slidesToShow: 1,
+          adaptiveHeight: true,
+          autoplay: true,
+          autoplaySpeed: 2000,
+        });
       });
     </script>
   </body>

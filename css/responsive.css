@@ -130,7 +130,7 @@
   }
 }
 @media (min-width: 1200px) {
-  .header-content {
+  .slides {
     padding-top: 144px;
   }
   .daily-structure {
@@ -144,10 +144,10 @@
   }
 }
 @media (min-width: 1400px) {
-  .header-content {
+  .slides {
     padding-top: 124px;
   }
-  .header-content button {
+  .header-content .btn-hc {
     margin-bottom: 15.5rem;
   }
   .green-icon-inside {
@@ -158,7 +158,7 @@
   }
 }
 @media screen and (min-width: 1550px) {
-  .header-content {
+  .slides {
     padding-top: 200px;
   }
 }
